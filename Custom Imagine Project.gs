@@ -31,12 +31,12 @@ function onOpen() {
 // function to send email to Emma of Imagine
 function sendApplicationEmail() {
   // Recipient's email address
-  var recruiterEmail = 'adepejuoladapo@gmail.com';
+  var recruiterEmail = 'e***@join*******.com';
 
   // Subject and body of the email
   var subject = 'Data Analyst and Google Sheets Developer Application By Google Apps Script';
-  var body = 'Hi Emma,\n\n If you are reading this mail its because youve activated the cureview my project at the following link: [project link]';
-
+  var body = 'Hi ****,\n\n If you are reading this mail it is because you have activated the custom menu on my project and I am so grateful for that. \n\n I would like to use this opportunity to let you know how delighted I would be if allowed to join the Imagine team. As an Imagine fellow and beneficiary of how impactful Imagine is as a foundation, being a part of what makes it run so well would be an honor. \n\n I loved working on this demo project that I created specifically for you and Imagine and would love to be allowed to replicate it on a larger scale for a more meaningful purpose. Thank you for reading. \n\n I hope to hear from you soon.'
+  
   // Send the email
   GmailApp.sendEmail(recruiterEmail, subject, body);
 }
